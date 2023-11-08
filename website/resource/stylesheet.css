@@ -1,0 +1,248 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset,form,label,legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+   
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 99px;
+  }
+
+body{
+    background-image: url(./images/wood\ block\ wallpaper.png);
+    width: 90%;
+    padding-top: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    background: url(./images/banner\ groot.webp) no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .50);
+    border-radius: 10px;
+}
+
+#header h1 {
+    font-family: monospace;
+    font-size: 50px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#header p {
+    font-family: monospace;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    margin: 10px auto 0;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .50);
+    align-content: flex-start;
+    margin-bottom: 30px;
+    background-color: rgb(61, 128, 34);
+}
+
+nav a {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 50px;
+    position: relative;
+    text-align: right;
+    text-decoration: none;
+    font-family: monospace;
+    font-weight: 500;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #014e21;
+}
+
+img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+    border: solid black;
+    border-width: 1px;
+    padding: 5px;
+}
+
+
+.btnUP {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .50);
+    width: 15px;
+    border-radius: 5px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.btnUP:hover {
+    background-color: #fff;
+}
+
+.btnUP a:visited {
+    color: #333;
+ }
+
+#section1, #section2, #section3, #Contact {
+    width: 100%;
+    border-radius: 10px;
+    background-color: olivedrab;
+    padding: 0px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, .50);
+    display: flex;
+}
+
+.header {
+    font-family: monospace;
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.para {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: larger;
+    margin-right: 3%;
+    width: 95%;
+    padding: 20px;
+}
+
+.quote {
+    color: #333;
+    align-self: self-end;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.text {
+    width: 70%;
+    height: 100%;
+   flex-grow: 1;
+   align-self: flex-start;
+}
+
+.image {
+    align-self: center;
+    padding: 20px;
+}
+
+#Contact {
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    height:auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#Contact h1 {
+    color: #fff;
+    font-size: x-large;
+}
+
+.wrapper {
+    padding: 20px;
+    width: 35%;
+    height: 100%;
+}
+
+.input-box {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.textfield {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.wrapper i {
+    color: #fff;
+    width: 10px;
+}
+
+.info {
+    padding: 20px;
+    color: #333;
+    width: 40%;
+    height: 100%;
+    text-align: right;
+    margin-right: 40px;    
+}
+
+ul {
+    list-style: none;
+    line-height: 380%;
+}
+
+button {
+    font-size: x-large;
+    margin-left: 25px;
+    width: auto;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+}
+
+button:hover {
+    background-color: rgb(78, 102, 29);
+}
+
+footer {
+    font-size: small;
+    color: #e6ec8d;
+    width: 100%;
+    display: flex;
+    background-color: rgb(94, 54, 2);
+    justify-content: center;
+}
